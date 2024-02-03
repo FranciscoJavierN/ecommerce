@@ -1,1 +1,1 @@
-
+<h1>Vista preliminar <a href="https://htmlpreview.github.io/?https://github.com/FranciscoJavierN/ecommerce/blob/main/proyecto_desafio_fco_neira/index.html">favor esperar, hasta que cargue toda la pagina bien.</a></h1> 
