@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.contenedor{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-areas:
+    'header header'
+    'lateral catalogo'
+    'pie pie'
+}
+.encabezado{
+    background-color: #24547c;
+    grid-area: header;
+    justify-self: center;
+    width: 100%;
+    color: #e4e4e4;
+
+     /* Centrar horizontalmente */
+     display: flex;
+     justify-content: center;
+     
+     /* Centrar verticalmente */
+     align-items: center;
+}
+.lateral{
+    background-color: #e4e4e4;
+    grid-area: lateral;
+    color: #24547c;
+    padding: 5%;
+}
+.lateral ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    list-style-type: none;
+}
+.catalogo{
+    background-color: #e4e4e4;
+    grid-area: catalogo;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+}
+.pie {
+    background-color: white;
+    grid-area: pie;
+    color: #24547c;
+    
+    /* Centrar horizontalmente */
+    display: flex;
+    justify-content: center;
+    
+    /* Centrar verticalmente */
+    align-items: center;
+  }
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 360px;
+    background-color: white;
+    color: #24547c;
+}
+.fotos{
+    width: 90%;
+    height: 80%;
+}
+button{
+    background-color: #24547c;
+    width: 100%;
+    height: 8%;
+    color: white;
+}
